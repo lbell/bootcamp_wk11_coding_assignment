@@ -1,0 +1,16 @@
+#board-grid {
+  margin: auto;
+  width: 75%;
+  max-width: 75vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  /* grid-auto-rows: minmax(100px, auto); */
+}
+
+#board-grid > * {
+  padding: 10px;
+  aspect-ratio: 1 / 1;
+
+  background-color: #ccc;
+}
